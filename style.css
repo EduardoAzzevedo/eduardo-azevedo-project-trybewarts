@@ -24,3 +24,12 @@
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+hr {
+  width: 600px;
+}
+
+#family {
+  display: flex;
+  flex-direction: column;
+}
