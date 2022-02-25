@@ -1,5 +1,5 @@
 .header {
-  display:flex;
+  display: flex;
   background-color: rgb(50, 167, 145);
 }
 
@@ -15,7 +15,6 @@
   display: flex;
   width: 675px;
   flex-direction: column;
-  /* flex-wrap: wrap; */
 }
 
 /* #evaluation-form input, select {

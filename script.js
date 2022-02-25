@@ -4,10 +4,10 @@ const email = document.querySelector('#email-login');
 const password = document.querySelector('#password');
 
 function alertLogin() {
-  if(email.value === "tryber@teste.com" && password.value === "123456") {
-    alert("Olá, Tryber!");
+  if (email.value === 'tryber@teste.com' && password.value === '123456') {
+    alert('Olá, Tryber!');
   } else {
-    alert("Email ou senha inválidos.");
+    alert('Email ou senha inválidos.');
   }
 }
 
