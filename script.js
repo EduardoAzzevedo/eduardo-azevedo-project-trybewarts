@@ -95,3 +95,4 @@ function generateInfo() {
 }
 
 sendButton.addEventListener('click', generateInfo);
+// ultimo commit.
