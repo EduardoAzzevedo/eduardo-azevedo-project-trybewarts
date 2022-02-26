@@ -39,7 +39,7 @@ hr {
   flex-direction: column;
 }
 
-#textarea {
+#textarea-div {
   display: flex;
   flex-direction: column;
 }
