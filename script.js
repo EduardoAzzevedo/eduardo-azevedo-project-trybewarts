@@ -13,6 +13,7 @@ const emailInput = document.querySelector('#input-email');
 const house = document.querySelector('#house');
 const family = document.querySelectorAll('.family');
 const rate = document.querySelectorAll('.rate');
+const content = document.querySelectorAll('.subject');
 
 sendButton.disabled = true;
 counter.innerHTML = `Máximo de caracteres: ${500}`;
@@ -65,7 +66,6 @@ function getFamily() {
 }
 
 function getContent() {
-  const content = document.querySelectorAll('.subject');
   const arraySubjects = [];
   for (let i = 0; i < content.length; i += 1) {
     if (content[i].checked) {
@@ -89,10 +89,10 @@ function generateInfo() {
   generateParagraph(`Email: ${emailInput.value}`);
   generateParagraph(`Casa: ${getHouse()}`);
   generateParagraph(`Família: ${getFamily()}`);
-  generateParagraph(`Materias: ${getContent()}`);
+  generateParagraph(`Matérias: ${getContent()}`);
   generateParagraph(`Avaliação: ${getRate()}`);
   generateParagraph(`Observações: ${textarea.value}`);
 }
 
 sendButton.addEventListener('click', generateInfo);
-// ultimo commit.
+// ultimo commit..
